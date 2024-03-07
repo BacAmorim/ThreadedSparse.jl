@@ -1,0 +1,13 @@
+name = "ThreadedSparse"
+uuid = "5ddf4f10-ec22-4c1e-82a6-1f7f52f0e4f8"
+authors = ["Bruno Amorim <amorim.bac@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
