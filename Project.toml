@@ -3,6 +3,10 @@ uuid = "5ddf4f10-ec22-4c1e-82a6-1f7f52f0e4f8"
 authors = ["Bruno Amorim <amorim.bac@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
 julia = "1"
 

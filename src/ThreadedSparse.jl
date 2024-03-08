@@ -1,5 +1,9 @@
 module ThreadedSparse
 
-# Write your package code here.
+using SparseArrays, ChunkSplitters
+
+include("masked_sparse_matmul.jl")
+
+export maskedspmatmul!, initaccumulators
 
 end
