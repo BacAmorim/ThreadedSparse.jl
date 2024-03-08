@@ -1,5 +1,3 @@
-using SparseArrays, ChunkSplitters
-
 #=
 Masked Sparse Accumulator as described in "Parallel Algorithms for Masked Sparse Matrix-Matrix Products", https://arxiv.org/abs/2111.09947
 
